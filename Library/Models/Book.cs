@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Library.Models
 {
-    public class Book
+    public class Book : LibraryAsset
     {
         [Key]
         public int Id { get; set; }
